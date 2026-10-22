@@ -1,4 +1,8 @@
 # GoScrape
+## 🌐 Live Demo
+
+* **Frontend Dashboard (Vercel):**(https://goscrape.vercel.app/)
+* **Backend API (Render):** (https://goscrape-hl4r.onrender.com)
 
 A concurrent web crawler with a live dashboard. A Go backend runs a per-job worker pool, rate-limits each domain with a token bucket, stores results in SQLite and can abort a crawl mid-flight. A Next.js dashboard starts crawls and shows them live.
 
